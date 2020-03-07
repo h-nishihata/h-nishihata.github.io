@@ -17,6 +17,12 @@ html, body, * {
 * {
   color: #ddd; }
 
+hr {
+  width: 100%;
+  height: 12px;
+  border-top: 1px solid white
+}
+
 .container {
   position: relative;
   z-index: 100;
@@ -51,13 +57,10 @@ html, body, * {
   .container .works {
     margin-bottom: 80px;
     width: 600px; }
-    .container .works a {
-      width: 100%;
-      height: 320px; }
     .container .works ul {
-      list-style: none;
-      padding: 10px 20px 0px 20px; }
-      .container .works ul li a.link {
+    list-style: none;
+    padding: 10px 20px 0px 20px; }
+    .container .works ul li a.link {
         display: inline-block;
         text-decoration: none;
         margin: 2px 4px; }
