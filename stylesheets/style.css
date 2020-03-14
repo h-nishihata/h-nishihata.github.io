@@ -27,7 +27,7 @@ hr {
   position: relative;
   z-index: 100;
   background-color: transparent;
-  width: 800px;
+  width: 600px;
   padding-top: 120px;
   margin-left: auto;
   margin-right: auto;
@@ -55,17 +55,15 @@ hr {
         display: block; }
 
   .container .works {
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 80px;
     width: 600px; }
-    .container .works ul {
-    list-style: none;
-    padding: 10px 20px 0px 20px; }
-    .container .works ul li a.link {
-        display: inline-block;
-        text-decoration: none;
-        margin: 2px 4px; }
+    .container .works table {
+      border-spacing: 0;
+      border-collapse: collapse;}
+      .container .works table td {
+        padding: 0;
+        margin: 0;
+        font-size: 0;}
 
   .container .description {
     margin-bottom: 80px;
