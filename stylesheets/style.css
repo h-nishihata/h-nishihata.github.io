@@ -89,11 +89,12 @@ hr
   .container .title p
   {
     font-style: italic;
+    font-size: 14px;
   }
 
   .container .description
   {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     padding: 0px 20px 0px 0px;
   }
     .container .description p
