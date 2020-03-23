@@ -88,7 +88,6 @@ hr
     .container .works iframe
     {
       width: 100%;
-      height: 100px;
     }
 
   .container .title p
@@ -99,7 +98,7 @@ hr
 
   .container .description
   {
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     padding: 0px 20px 0px 20px;
   }
     .container .description p

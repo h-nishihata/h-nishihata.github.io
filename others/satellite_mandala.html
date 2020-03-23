@@ -1,275 +1,75 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<html lang="en-us">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes">
 
-<head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="shortcut icon"　type="image/png" href="/img/favicon.png" />
-    <link rel="stylesheet" type="text/css" href="./css/default.css" />
-	<script type="text/javascript" src="./js/default.js"></script>
-	
-	<title>Satellite Mandala</title>	
+	    <title>Satellite Mandala</title>
 
-	<style type="text/css">
-		body {
-			background-color: #9a9a9a;
-			font-family: "Lucida Grande", "Helvetica", "Arial", "sans-serif";
-			font-size: 11px;
-			color: #FFFFFF;
-		}
-		.inner{
-			padding: 10px 10px;
-		}
-		.wrap {
-			margin: 0 auto;
-			width: 90vw;
-		}
-		.contents {
-			overflow: hidden;
-			width: 90vw;
-		}
-		.main {
-			float: right;
-			min-height: 500px;
-			width: 75vw;
-		}
-		.sub {
-			float: left;
-			min-height: 500px;
-			width: 15vw;
-			font-size: 10.5px;
-		}
-		.sub ul {
-			margin-left: 0;
-			padding: 0;
-		}
-		.video {
-			position: relative;
-			height: 0;
-			padding: 30px 0 56.25%;
-			overflow: hidden;
-		}
-		.video iframe {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-		}
+			<link rel="stylesheet" href="/Users/Lancelot/Desktop/h-nishihata.github.io/stylesheets/style.css">
+	</head>
+	<body>
 
-		div.swap {
-			width:"100%";
-			margin:0 auto;
-			overflow:hidden;
-		}
-		div.swap p img {
-			display:block;
-		}
-		div.swap li a {
-			display:block;
-		}
-		div.swap li {
-			float:left;
-			margin:0 5px 5px 0;
-		}
-
-		ul,li {
-			list-style:none;
-		}
-		a img {
-			border:none;
-		}
-		a {
-			outline:none;
-		}
-		a:link {
-			text-decoration: none;
-			color: #ffffff;
-			font-variant: normal;
-			background-color: none;
-		}
-		a:visited {
-			text-decoration: none;
-			color: #ffffff;
-		}
-		a:hover {
-			text-decoration: none;
-			color: #999999;
-			background-color: none;
-		}
-		.alpha a:hover img {
-			opacity: 0.3;
-			filter: alpha(opacity=30);
-			-ms-filter: "alpha(opacity=30)";
-		}
-		/*.style00{
-			font-size:10px;
-			letter-spacing: 1px;
-		}*/
-	</style>
-
-	<script src="http://www.google.com/jsapi"></script>
-	<script>google.load("jquery", "1.7.1");</script>
-	
-	<script type="text/javascript">
-	$(function () {
-		$('div.swap li a').click(function (e) {
-			e.preventDefault();
-			var imagePath = $(this).attr('href');
-			var mainImage = $(this).parents('div.swap').find('p img');
-			$(mainImage).attr('src', imagePath);
-		});
-	});
-	</script>
-
-</head>
-
-
-
-<body>
-
-	<div class="wrap">
-
-		<div class="header">
-			<div class="inner">
-			<header>
-			<p><a href ="/index.html">hitoshi nishihata</a></p>
-			</header>
-			</div>
-		</div>
-<br>
-<br>
-<br>
-		<div class="contents">
-
-<!--	********** MENU **********	-->
-
-			<div class="sub">
-				<div class="inner">
-				    <div onclick="obj=document.getElementById('Info_menu').style; obj.display=(obj.display=='none')?'block':'none';">
-				    <a style="cursor:pointer;">Info</a>
-				    </div>
-
-				    <div id="Info_menu" style="display:none;clear:both;">
-				    <ul>
-					<li><a href="/curriculum-vitae.html">About</a></li>
-					<li><a href="/news.html">News</a></li>
-					<li><a href="/contact.html">Contact</a></li>
-				    </ul>
-				    </div>
-
-				    <p><font color="#7a7a7a">Works</font></p>
-
-				    <ul>
-					<li><a href="/paintings.html">Paintings</a></li>
-					<li><a href="/coding.html">Coding</a></li>
-				    </ul>
+		<main id="main" class="container">
+	    <div class="works">
+	      <div style="padding:73.13% 0 0 0;position:relative;">
+					<iframe src="https://player.vimeo.com/video/79257471?color=9a9a9a" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 				</div>
-			</div>
-
-<!--	********** CONTENTS **********	-->
-			
-			<div class="main">
-				<div class="inner">
-				<main>
-			    <a href="/coding/torrent-of-light.html">Previous</a> | <a href="/coding/aeolian-harp.html">Next</a>
-
-<!--	********** IMAGE **********	-->
-
-				<div class="swap">
-				<table width="90%"><tr>
-				<td width="5%"></td>
-				<td width="95%">
-				<p><img src="/img/satellite_mandala_00.jpg" alt="" name="satellite_mandala_00" width="95%" border="0" id="satellite_mandala_00" /></p>
-				</td></tr></table>
-
-<!--	********** CAPTION **********	-->
-
-				<table width="90%" border="0">
-				<tr valign="text-top">
-					<td><div align="left">
-					<p><span style="font-weight: bold">Satellite Mandala</span><br><br>
+				<script src="https://player.vimeo.com/api/player.js"></script>
+	    </div>
+			<div class="description">
+				<div class="title"><p>Satellite Mandala</p></div>
+				<p>
 					2013<br>
-					Single screen, LCD projector / スクリーン，LCDプロジェクター<br>
-					Processing<br>
-					Dimension variable / サイズ可変</p>
-					</div></td>
-				</tr>
-
-<!--	********** SWAPPING IMAGE **********	-->
-
-				<tr valign="left">
-					<td colspan="3"><div class="alpha">
-<br>
-<br>		
-<br>
-					<ul>
-					<li><a href="/img/satellite_mandala_01.jpg"><img src="/img/satellite_mandala_01.jpg" alt="" width="133"></a></li>
-					<li><a href="/img/satellite_mandala_02.jpg"><img src="/img/satellite_mandala_02.jpg" alt="" width="133"></a></li>
-					<li><a href="/img/satellite_mandala_00.jpg"><img src="/img/satellite_mandala_00.jpg" alt="" width="133"></a></li>
-					</ul>
-					</div></div>
-					</td>
-				</tr>
-				<tr><td><br><br><br><br><br></td></tr>
-
-<!--	********** DESCRIPTION **********	-->
-
-				<tr>
-					<td width="45%"><div align="left">
+					Real time rendering video installation<br>
+					Single screen, LCD projector, computer, speakers<br>
+					Dimension variable
+	      </p>
+				<br>
+				<br>
+				<br>
+				<div class="title"><p>Satellite Mandala</p></div>
+				<p>
+					2013<br>
+					リアルタイム処理による映像<br>
+					スクリーン，LCDプロジェクタ，コンピュータ，スピーカ<br>
+					サイズ可変
+	      </p>
+	    </div>
+			<div class="description">
+				<p>
 					I was inspired by “ARTSAT Project”, which is a collaboration of universities and JAXA (Japan Aerospace Exploration Agency). The team makes an attempt to develop the world’s first satellite for artistic purposes. As the 1st version, I used simulation data from web API, before launching the satellite.<br>
 					The map displayed on the screen depends on location of the satellite, and the amount of power generation that affects the prevailing color in the picture.<br>
-<br>
-<br>
+					<br>
+					<br>
 					多摩美術大学と東京大学，宇宙航空研究開発機構（JAXA）が協働して，人工衛星から送られてくる情報を芸術のために使う「ARTSAT」というプロジェクトに着想を得て制作した作品．衛星の打ち上げに先立って，ウェブ上のシミュレーションを利用したものである．<br>
-					衛星の発電量や，真下にある地表の写真などのデータが絵画の要素としてリアルタイムに反映される．<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-					Related : <a href="http://www.art-critic.org/2013/07/drawernishihata-hitoshi.html" target="_blank">art-critic.org</a><br>
-<br>
-					 “Imagine”, a group / project by artists who currently work on Japanese painting (or who began as Japanese painting artist), makes an archive of drawings called “drawer” in order to present each artists' processes of thoughts.<br>
-<br>					 
-					 日本画出身者によるグループ／プロジェクト「イマジン」の活動の一環として，それぞれの作り手の思考の過程をdrawer（ひきだし）としてアーカイヴする．
-					</div><br>
-					</td>
-					<td width="55%"></td>
-				</tr>
-				<tr><td><br><br><br><br><br></td></tr>
-				</table>
-
-<!--	********** VIDEO **********	-->
-
-				<table width="90%" border="0">
-				<tr valign="text-top">
-					<td width="90%">
-					<div class="video">
-					<iframe src="//player.vimeo.com/video/79257471?color=9a9a9a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-					</td>
-				</tr>
-
-				<tr><td><br><br><br><br><br></td></tr>
-
-				<tr>
-					<td  width="844"valign="top"><div align="text-left">
-					<a href="/coding/torrent-of-light.html">Previous</a> | <a href="/coding/aeolian-harp.html">Next</a></div>
-<br>
-<br>
-<br>
-<br>
-<br>
-					</td>
-				</tr>
-				</table>
-				</main>
+					衛星の発電量や，真下にある地表の写真などのデータが絵画の要素としてリアルタイムに反映される．
+				</p>
 			</div>
-		</div>
-
-		</div>
-
-	</div> 
-
-</body>
+			<div class="works">
+	      <table>
+	          <tr>
+	              <td>
+	                  <img src="https://h-nishihata.github.io/images/others/satellite_mandala_00.jpg"/ width="100%">
+	              </td>
+	          </tr>
+						<tr height="32px">
+						</tr>
+						<tr>
+	              <td>
+	                  <img src="https://h-nishihata.github.io/images/others/satellite_mandala_01.jpg"/ width="100%">
+	              </td>
+	          </tr>
+						<tr height="32px">
+						</tr>
+						<tr>
+	              <td>
+	                  <img src="https://h-nishihata.github.io/images/others/satellite_mandala_02.jpg"/ width="100%">
+	              </td>
+	          </tr>
+	      </table>
+			</div>
+		</main>
+	</body>
 </html>
