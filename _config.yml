@@ -1,0 +1,14 @@
+repository: h-nishihata/h-nishihata.github.io
+
+markdown: kramdown
+# highlighter: rouge
+
+permalink: none
+
+# theme: jekyll-theme-merlot
+
+url: "https://h-nishihata.github.io"
+plugins:
+ - jekyll-seo-tag
+ - jekyll-sitemap
+ - jekyll-feed
