@@ -59,7 +59,7 @@ hr
     {
       text-align: center;
     }
-      .container .logo .logo-inner h1
+      .container .logo .logo-inner h2
       {
         color: white;
         font-size: 90px;
@@ -68,6 +68,11 @@ hr
         line-height: 1.1em;
         display: block;
       }
+  
+  .container .category h3
+  {
+    padding: 0px 0px 0px 20px;
+  }
 
   .container .works
   {
@@ -109,7 +114,8 @@ hr
       color: #ddd;
     }
 
-footer {
+footer
+{
   position: relative;
   z-index: 10;
   width: 300px;
