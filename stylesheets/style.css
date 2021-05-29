@@ -59,17 +59,8 @@ hr
     {
       text-align: center;
     }
-      .container .logo .logo-inner h2
-      {
-        color: white;
-        font-size: 90px;
-        font-weight: bold;
-        letter-spacing: 2px;
-        line-height: 1.1em;
-        display: block;
-      }
   
-  .container .category h3
+  .container .category
   {
     padding: 0px 0px 0px 20px;
   }
